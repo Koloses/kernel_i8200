@@ -220,7 +220,7 @@ static struct clk pll1_624 = {
 
 static struct clk pll1_1248 = {
 	.name = "pll1_1248",
-	.rate = 1248000000,
+	.rate = 1344000000,
 	.ops = NULL,
 };
 

@@ -934,20 +934,20 @@ int get_max_cpurate(void)
 
 static struct cpu_rtcwtc cpu_rtcwtc_z3[] = {
 	{.max_pclk = 800, .l1_rtc = 0x88888888, .l2_rtc = 0x00008444,},
-	{.max_pclk = 1205, .l1_rtc = 0x99999999, .l2_rtc = 0x00009555,},
+	{.max_pclk = 1344, .l1_rtc = 0x99999999, .l2_rtc = 0x00009555,},
 };
 
 static struct cpu_rtcwtc cpu_rtcwtc_ax[] = {
 	{.max_pclk = 800, .l1_rtc = 0x88888888, .l2_rtc = 0x00008444,},
 	{.max_pclk = 1066, .l1_rtc = 0x99999999, .l2_rtc = 0x00009555,},
-	{.max_pclk = 1205, .l1_rtc = 0xAAAAAAAA, .l2_rtc = 0x0000A555,},
+	{.max_pclk = 1344, .l1_rtc = 0xAAAAAAAA, .l2_rtc = 0x0000A555,},
 };
 
 static struct cpu_rtcwtc cpu_rtcwtc_1088[] = {
 	{.max_pclk = 312, .l1_rtc = 0x02222222, .l2_rtc = 0x00002221,},
 	{.max_pclk = 800, .l1_rtc = 0x02666666, .l2_rtc = 0x00006265,},
 	{.max_pclk = 1183, .l1_rtc = 0x2AAAAAA, .l2_rtc = 0x0000A2A9,},
-	{.max_pclk = 1300, .l1_rtc = 0x02EEEEEE, .l2_rtc = 0x0000E2ED,},
+	{.max_pclk = 1344, .l1_rtc = 0x02EEEEEE, .l2_rtc = 0x0000E2ED,},
 	/*
 	 * 1283M will also use 1300 setting, if we use 1300Mhz later,
 	 * the code doesn't need to be changed.

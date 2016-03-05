@@ -423,7 +423,7 @@ static struct dvfs_rail_component vm_rail_comp_tbl_z1z2[VM_RAIL_MAX] = {
 };
 
 static unsigned long freqs_cmb_z3[VM_RAIL_MAX][VL_MAX] = {
-	{ 312000, 624000, 1066000, 1205000 },	/* CORE */
+	{ 312000, 624000, 1066000, 1344000 },	/* CORE */
 	{ 312000, 312000, 533000, 533000 },	/* DDR/AXI */
 	{ 0	, 416000, 624000, 624000 },	/* GC */
 	{ 208000, 312000, 416000, 416000 }	/* VPU */
