@@ -524,11 +524,11 @@ static struct pxa988_cpu_opt pxa988_op_array_z3ax[] = {
 #else
 	
 	{
-		.pclk = 1248,
-		.l2clk = 624,
-		.pdclk = 624,
-		.baclk = 312,
-		.periphclk = 156,
+		.pclk = 1344,
+		.l2clk = 672,
+		.pdclk = 672,
+		.baclk = 336,
+		.periphclk = 168,
 		.ap_clk_sel = AP_CLK_SRC_PLL1_1248,
 	},
 #endif	
@@ -747,7 +747,7 @@ static struct platform_opt platform_op_arrays[] = {
 #if !defined(CONFIG_CORE_1248)
 		.df_max_cpurate = 1205,
 #else
-		.df_max_cpurate = 1248,
+		.df_max_cpurate = 1344,
 #endif
 		.ddr_axi_opt = lpddr400_axi_oparray_z3ax,
 		.ddr_axi_opt_size = ARRAY_SIZE(lpddr400_axi_oparray_z3ax),
@@ -762,7 +762,7 @@ static struct platform_opt platform_op_arrays[] = {
 #if !defined(CONFIG_CORE_1248)
 		.df_max_cpurate = 1205,
 #else
-		.df_max_cpurate = 1248,
+		.df_max_cpurate = 1344,
 #endif
 		.ddr_axi_opt = lpddr533_axi_oparray_z3ax,
 		.ddr_axi_opt_size = ARRAY_SIZE(lpddr533_axi_oparray_z3ax),
